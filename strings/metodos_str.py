@@ -50,6 +50,7 @@ str = "Cena Oculta"
 print(str.find('c'))
 print(str.index('c'))
 
-#8. isalnum(), basicamente ele vai retornar true se tiver letras ou números, se tiver espaço por exemplo, vai retornar false,
+#8. isalnum(), basicamente ele vai retornar true se tiver letras ou números,
+#se tiver espaço, ou qualquer outro caractere por exemplo, vai retornar false,
 str = "CenaOculta"
 print(str.isalnum())
