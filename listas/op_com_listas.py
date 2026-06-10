@@ -36,5 +36,6 @@ print(L)
 L = [2, 2, 3, 4]
 
 L.pop(2) #remove o elemento do índice indicado, nesse caso o 3
+#OBS: Se vc não colocar nada no () ele retira o ultimo item
 
 print(L)
