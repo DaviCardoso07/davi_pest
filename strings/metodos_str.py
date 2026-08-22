@@ -47,8 +47,8 @@ print(str.count('a'))
 #7. find() e index(): ambos retornam o índice(em que caractere está oque eu pedi) da primeira ocorrência,
 
 str = "Cena Oculta"
-print(str.find('c'))
-print(str.index('c'))
+print(str.find('c')) #retorna "-1" quando não encontra(melhor)
+print(str.index('c')) #Da erro quando não encontra
 
 #8. isalnum(), basicamente ele vai retornar true se tiver letras ou números,
 #se tiver espaço, ou qualquer outro caractere por exemplo, vai retornar false,
